@@ -1,0 +1,1 @@
+using System;//https://www.codewars.com/kata/54d4c8b08776e4ad92000835public class PerfectPower{    public static (int, int)? IsPerfectPower(int n)    {     if(n <=2)return null;          for(int i = 1; i<=1000;i++)      for(int j = 2; j<=1000;j++)        if(Math.Pow(i,j)==n) return (i,j);              return null;    }}  
